@@ -12,11 +12,11 @@ in its "in graphics" form:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Zach Witonsky .
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import math
-import builtins  # Never necessary, but here for pedagogical reasons
+import builtins  # Never necessary, but here for pedago
 
 
 # -----------------------------------------------------------------------------
@@ -32,9 +32,9 @@ import builtins  # Never necessary, but here for pedagogical reasons
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_from()
-    run_test_factorial()
-    run_test_count_cosines_from()
-    run_test_sum_unit_fractions_from()
+    # run_test_factorial()
+    # run_test_count_cosines_from()
+    # run_test_sum_unit_fractions_from()
 
 
 # -----------------------------------------------------------------------------
