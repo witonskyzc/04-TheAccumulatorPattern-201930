@@ -180,9 +180,11 @@ def draw_lines(n, point, window):
     # -------------------------------------------------------------------------
 
     for k in range(n):
-        line = rg.Line(point,rg.Point(point.x+100,point.y + (100)*((-1)**k)))
+        line = rg.Line(point,rg.Point(point.x + 100,point.y + (100/(n)*k)))
+        print(k)
         line.attach_to(window)
-    window.render()
+        window.render()
+
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

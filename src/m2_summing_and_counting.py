@@ -196,12 +196,6 @@ def count_sines_from(m, n):
     #   of the RANGE expression, if you happen to know them.
     # -------------------------------------------------------------------------
 
-    # value = 0
-    # for k in range(m, n+1):
-    #     if math.sin(k)<.5:
-    #         value = value + 1
-    # return value
-
     value = 0
 
     for k in range(n-(m-1)):
